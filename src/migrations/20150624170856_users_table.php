@@ -2,7 +2,7 @@
 /**
  * Migration Task class.
  */
-class HellofreshUsersTable
+class UsersTable
 {
   public function preUp()
   {
