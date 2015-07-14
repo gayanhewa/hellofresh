@@ -1,0 +1,28 @@
+{
+    "name": "gayanhewa/hellofresh",
+    "description": "HelloFresh Framework",
+    "type": "Project",
+    "autoload" : {
+      "psr-4": {
+        "HelloFresh\\":"src/App/"
+      }
+    },
+    "require": {
+        "j4mie/paris": "1.5.*",
+        "respect/validation": "^0.10.0@dev",
+        "kohkimakimoto/lib-migration": "dev-master",
+        "hoa/dispatcher": "0.15.05.29",
+        "hoa/router": "^2.0@dev",
+        "aura/di": "2.2.*"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gayan Hewa",
+            "email": "gayanhewa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

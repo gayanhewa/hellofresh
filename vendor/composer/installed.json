@@ -1,0 +1,483 @@
+[
+    {
+        "name": "respect/validation",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Respect/Validation.git",
+            "reference": "fb742375b43b0cbeffce6045d0fd8e6722e17f22"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Respect/Validation/zipball/fb742375b43b0cbeffce6045d0fd8e6722e17f22",
+            "reference": "fb742375b43b0cbeffce6045d0fd8e6722e17f22",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.6"
+        },
+        "require-dev": {
+            "egulias/email-validator": "~1.2",
+            "malkusch/bav": "~1.0",
+            "mikey179/vfsstream": "^1.5",
+            "phpunit/phpunit": "~4.0",
+            "symfony/validator": "~2.6.9",
+            "zendframework/zend-validator": "~2.3"
+        },
+        "suggest": {
+            "egulias/email-validator": "Strict (RFC compliant) email validation",
+            "ext-bcmath": "Arbitrary Precision Mathematics",
+            "ext-mbstring": "Multibyte String Functions",
+            "malkusch/bav": "German bank account validation",
+            "symfony/validator": "Use Symfony validator through Respect\\Validation",
+            "zendframework/zend-validator": "Use Zend Framework validator through Respect\\Validation"
+        },
+        "time": "2015-06-19 02:08:01",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.10-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Respect\\Validation\\": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD Style"
+        ],
+        "authors": [
+            {
+                "name": "Respect/Validation Contributors",
+                "homepage": "https://github.com/Respect/Validation/graphs/contributors"
+            }
+        ],
+        "description": "The most awesome validation engine ever created for PHP",
+        "homepage": "http://respect.li",
+        "keywords": [
+            "respect",
+            "validation",
+            "validator"
+        ]
+    },
+    {
+        "name": "kohkimakimoto/lib-migration",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kohkimakimoto/lib-migration.git",
+            "reference": "fffa8dee71610d5a085ff2c22b73c6291ef5bd2b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kohkimakimoto/lib-migration/zipball/fffa8dee71610d5a085ff2c22b73c6291ef5bd2b",
+            "reference": "fffa8dee71610d5a085ff2c22b73c6291ef5bd2b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/dbunit": "1.2.*",
+            "phpunit/phpunit": "3.*"
+        },
+        "time": "2014-03-05 04:29:29",
+        "bin": [
+            "bin/phpmigrate"
+        ],
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "LibMigration": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache License 2.0"
+        ],
+        "authors": [
+            {
+                "name": "Kohki Makimoto",
+                "email": "kohki.makimoto@gmail.com",
+                "homepage": "http://kohkimakimoto.hatenablog.com/"
+            }
+        ],
+        "description": "LibMigration is a minimum database migration library and framework for MySQL.",
+        "homepage": "https://github.com/kohkimakimoto/lib-migration",
+        "keywords": [
+            "database",
+            "db",
+            "migrations",
+            "mysql"
+        ]
+    },
+    {
+        "name": "j4mie/idiorm",
+        "version": "v1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/j4mie/idiorm.git",
+            "reference": "b0922d8719a94e3a0e0e4a0ca3876f4f91475dcf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/j4mie/idiorm/zipball/b0922d8719a94e3a0e0e4a0ca3876f4f91475dcf",
+            "reference": "b0922d8719a94e3a0e0e4a0ca3876f4f91475dcf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2014-06-23 13:08:57",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "idiorm.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "BSD-4-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Simon Holywell",
+                "email": "treffynnon@php.net",
+                "homepage": "http://simonholywell.com",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jamie Matthews",
+                "email": "jamie.matthews@gmail.com",
+                "homepage": "http://j4mie.org",
+                "role": "Developer"
+            },
+            {
+                "name": "Durham Hale",
+                "email": "me@durhamhale.com",
+                "homepage": "http://durhamhale.com",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "A lightweight nearly-zero-configuration object-relational mapper and fluent query builder for PHP5",
+        "homepage": "http://j4mie.github.com/idiormandparis",
+        "keywords": [
+            "idiorm",
+            "orm",
+            "query builder"
+        ]
+    },
+    {
+        "name": "j4mie/paris",
+        "version": "v1.5.4",
+        "version_normalized": "1.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/j4mie/paris.git",
+            "reference": "6cd7a3d8ffb721068dd58e508a8121b92b4068b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/j4mie/paris/zipball/6cd7a3d8ffb721068dd58e508a8121b92b4068b8",
+            "reference": "6cd7a3d8ffb721068dd58e508a8121b92b4068b8",
+            "shasum": ""
+        },
+        "require": {
+            "j4mie/idiorm": "1.5.*",
+            "php": ">=5.2.0"
+        },
+        "time": "2014-09-23 10:49:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "paris.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "BSD-4-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Simon Holywell",
+                "email": "treffynnon@php.net",
+                "homepage": "http://simonholywell.com",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jamie Matthews",
+                "email": "jamie.matthews@gmail.com",
+                "homepage": "http://j4mie.org",
+                "role": "Developer"
+            },
+            {
+                "name": "Durham Hale",
+                "email": "me@durhamhale.com",
+                "homepage": "http://durhamhale.com",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "A lightweight Active Record implementation for PHP5, built on top of Idiorm",
+        "homepage": "http://j4mie.github.com/idiormandparis",
+        "keywords": [
+            "Active Record",
+            "model",
+            "orm",
+            "paris"
+        ]
+    },
+    {
+        "name": "hoa/core",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hoaproject/Core.git",
+            "reference": "1ebc1c810d59511c215e79a8b6ef33cbd0ec7d91"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hoaproject/Core/zipball/1ebc1c810d59511c215e79a8b6ef33cbd0ec7d91",
+            "reference": "1ebc1c810d59511c215e79a8b6ef33cbd0ec7d91",
+            "shasum": ""
+        },
+        "require": {
+            "ext-spl": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "hoa/test": "~1.0"
+        },
+        "suggest": {
+            "ext-mbstring": "ext/mbstring must be present (or a third implementation).",
+            "hoa/console": "To use the `hoa` script.",
+            "hoa/dispatcher": "To use the `hoa` script.",
+            "hoa/router": "To use the `hoa` script."
+        },
+        "time": "2015-06-02 06:51:41",
+        "bin": [
+            "Bin/hoa"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Hoa\\Core\\": "."
+            },
+            "files": [
+                "Core.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Enderlin",
+                "email": "ivan.enderlin@hoa-project.net"
+            },
+            {
+                "name": "Hoa community",
+                "homepage": "http://hoa-project.net/"
+            }
+        ],
+        "description": "The Hoa\\Core library.",
+        "homepage": "http://hoa-project.net/",
+        "keywords": [
+            "consistency",
+            "core",
+            "data",
+            "event",
+            "library",
+            "listener",
+            "parameter",
+            "protocol"
+        ]
+    },
+    {
+        "name": "hoa/dispatcher",
+        "version": "0.15.05.29",
+        "version_normalized": "0.15.05.29",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hoaproject/Dispatcher.git",
+            "reference": "bd81177ea5bf8f3814f4790b8def9b6714baa682"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hoaproject/Dispatcher/zipball/bd81177ea5bf8f3814f4790b8def9b6714baa682",
+            "reference": "bd81177ea5bf8f3814f4790b8def9b6714baa682",
+            "shasum": ""
+        },
+        "require": {
+            "hoa/core": "~2.0"
+        },
+        "require-dev": {
+            "hoa/router": "~2.0",
+            "hoa/test": "~1.0",
+            "hoa/view": "~2.0"
+        },
+        "suggest": {
+            "hoa/router": "Provide routers.",
+            "hoa/view": "Provide view interface."
+        },
+        "time": "2015-05-29 13:48:38",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Hoa\\Dispatcher\\": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Enderlin",
+                "email": "ivan.enderlin@hoa-project.net"
+            },
+            {
+                "name": "Hoa community",
+                "homepage": "http://hoa-project.net/"
+            }
+        ],
+        "description": "The Hoa\\Dispatcher library.",
+        "homepage": "http://hoa-project.net/",
+        "keywords": [
+            "dispatcher",
+            "kit",
+            "library"
+        ]
+    },
+    {
+        "name": "hoa/router",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hoaproject/Router.git",
+            "reference": "f56bee7c912344650fce56995b4bdee3ffd7e621"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hoaproject/Router/zipball/f56bee7c912344650fce56995b4bdee3ffd7e621",
+            "reference": "f56bee7c912344650fce56995b4bdee3ffd7e621",
+            "shasum": ""
+        },
+        "require": {
+            "hoa/core": "~2.0"
+        },
+        "time": "2015-05-29 14:07:55",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Hoa\\Router\\": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Enderlin",
+                "email": "ivan.enderlin@hoa-project.net"
+            },
+            {
+                "name": "Hoa community",
+                "homepage": "http://hoa-project.net/"
+            }
+        ],
+        "description": "The Hoa\\Router library.",
+        "homepage": "http://hoa-project.net/",
+        "keywords": [
+            "cli",
+            "http",
+            "library",
+            "router"
+        ]
+    },
+    {
+        "name": "aura/di",
+        "version": "2.2.3",
+        "version_normalized": "2.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/Aura.Di.git",
+            "reference": "c0d51c15e105c4b6df90d4c29d9e4dac6bee4d5b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/c0d51c15e105c4b6df90d4c29d9e4dac6bee4d5b",
+            "reference": "c0d51c15e105c4b6df90d4c29d9e4dac6bee4d5b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-05-31 20:45:07",
+        "type": "library",
+        "extra": {
+            "aura": {
+                "type": "library"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Aura\\Di\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Aura.Di Contributors",
+                "homepage": "https://github.com/auraphp/Aura.Di/contributors"
+            }
+        ],
+        "description": "Provides a dependency injection container system with native support for constructor- and setter-based injection, lazy-loading of services, and inheritable configuration of setters and constructor params.",
+        "homepage": "https://github.com/auraphp/Aura.Di",
+        "keywords": [
+            "container",
+            "dependency injection",
+            "dependency injection container",
+            "di",
+            "di container"
+        ]
+    }
+]
