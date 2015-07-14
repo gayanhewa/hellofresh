@@ -1,4 +1,4 @@
-## HelloFresh Code Test
+## HelloFresh Framework :D
 
 The application shipped with this readme implements all the requirements from the requirement doc.
 
