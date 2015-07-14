@@ -1,8 +1,8 @@
 <?php
 
 return array(
-  'host' => 'customer1.riverviewms.com',
+  'host' => 'localhost',
   'username' => 'root',
   'password' => 'root',
-  'database' => 'hellofresh'
+  'database' => 'dbname'
 );
