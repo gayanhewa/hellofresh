@@ -4,7 +4,7 @@ $dbconfig = require __DIR__.'/database.php';
 return array(
   'colors' => true,
   'databases' => array(
-    'hellofresh' => array(
+    'dbserver1' => array(
       // PDO Connection settings.
       'database_dsn'      => "mysql:dbname={$dbconfig['database']};host={$dbconfig['host']}",
       'database_user'     => $dbconfig['username'],
